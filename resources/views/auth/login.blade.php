@@ -32,8 +32,8 @@
         @endif
 
         <form method="POST" action="{{ route('login') }}">
-            @csrf
 
+            @csrf
             <div class="mb-4">
                 <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                 <input id="email" type="email" name="email" value="{{ old('email') }}" required autofocus
