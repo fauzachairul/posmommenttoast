@@ -69,7 +69,7 @@
         </form>
     </div>
 
-    @vite('resources/js/script.js')
+    @vite('resources/js/app.js')
     <script>
         feather.replace();
 

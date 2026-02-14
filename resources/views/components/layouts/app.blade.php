@@ -98,7 +98,7 @@
         </main>
     </div>
 
-    @vite('resources/js/script.js')
+    @vite('resources/js/app.js')
     @livewireScripts
 
     <script src="https://unpkg.com/lucide@latest"></script>
